@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a=1;
+	float b=1.00;
+	while(a<=10)
+	{
+		printf("%d\t%.2f\n",a,b);
+		a=a+1;
+		b=b+0.10;
+	}
+}
